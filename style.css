@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(112, 213, 166);
+    font-family: 'Lato', sans-serif;
+}
+
+html body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+}
+
+header img{
+    float: left;
+    width: 10%;
+    margin-left: 15px;
+    border-radius: 60px;
+}
+
+header div img.logo2{
+    float: right;
+    top: 0;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+div.headerContainer{
+    text-align: center;
+    font-size: 32pt;
+    font-weight: bold;
+    color: rgb(60, 80, 70);
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+header div span a {
+    font-size: 22pt;
+    font-weight: bold;
+    justify-content: space-around;
+    text-decoration: none;    
+}
+
+.containerMenu{
+    width: 900px;
+    text-align: center;
+    margin-left: 400px;
+    justify-content: space-around;
+
+}
+
+/* ------------ corpo do site --------------- */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.gatos{
+    margin: 40px;
+    text-align: center;
+}
+
+.gatos img{
+    width: 100%;
+    border: 4px solid rgb(37, 66, 162);
+    border-radius: 80px;
+    margin: 20px;
+}
+
+.gatos img:hover{
+  transform: scale(1.2);
+  opacity: 0.9;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .headerContainer{
+    width: 100%;
+    font-size: 10pt;
+  }
+
+  .containerMenu{
+    width: 100%;
+    font-size: 7pt;
+  }
+}
+
+/* SOBRE */
+
+.sobreContainer{
+  width: 100%;
+  text-align: center;
+  margin: 4%;
+  }
+
+.sobreApresentacao h1{
+  color: rgb(60, 80, 70);
+  font-size: 20pt;
+}
+
+.sobreApresentacao p{
+  margin-top: 4%;
+  font-weight: bolder;
+}
